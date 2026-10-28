@@ -89,7 +89,7 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 <main id="content">
 <article>
 <h1>Privacy Policy</h1>
-<p class="meta">Effective <time datetime="2026-10-18">18 October 2026</time> &middot; Applies to the Latte website, web app, desktop app and mobile apps</p>
+<p class="meta">Effective <time datetime="2026-10-28">28 October 2026</time> &middot; Applies to the Latte website, web app, desktop app and mobile apps</p>
 
 <div class="summary" role="note" aria-labelledby="tldr">
 <h2 id="tldr">The short version</h2>
@@ -189,8 +189,9 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 <p>If you sign in with Google or connect your Google Calendar to Latte, we access the following Google user data. We access it only after you grant permission on Google&rsquo;s consent screen:</p>
 <ul>
 <li><strong>Basic profile</strong> (OpenID, name, email address): used to create your Latte account and sign you in.</li>
-<li><strong>Google Calendar, read access</strong> (<code>calendar.readonly</code>): used to import your existing Google Calendar events and show them in your Latte calendar, so that you can plan your studies around them.</li>
-<li><strong>Google Calendar events, write access</strong> (<code>calendar.events</code>): used only if you turn on two-way sync. Latte uses it to create and update, in your Google Calendar, the events you create or edit in Latte.</li>
+<li><strong>Your list of Google calendars, read access</strong> (<code>calendar.calendarlist.readonly</code>): used to show which of your Google calendars you can connect, with their names and time zones, and to tell which calendars you own.</li>
+<li><strong>Google Calendar events, read access</strong> (<code>calendar.events.readonly</code>): used to import the events of the calendars you choose to connect and show them in your Latte calendar, so that you can plan your studies around them.</li>
+<li><strong>Events on calendars you own, write access</strong> (<code>calendar.events.owned</code>): used only if you turn on two-way sync, and only for calendars you own. Latte uses it to create, update and delete, in that Google calendar, the events you create, edit or delete in Latte. Calendars that others share with you are never changed by Latte.</li>
 </ul>
 <p>We use Google user data only to provide and improve these user-facing calendar and sign-in features. We do not sell Google user data. We do not use or transfer it for advertising, including personalised, retargeted or interest-based advertising. We do not use it to determine creditworthiness or for lending purposes, and we do not use it to develop, improve or train generalised artificial intelligence or machine-learning models.</p>
 <p>We do not allow humans to read Google user data, except in four cases:</p>
