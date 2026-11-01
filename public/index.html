@@ -14,7 +14,7 @@
 <meta property="og:title" content="Latte Privacy Policy">
 <meta property="og:description" content="How Latte, the study planner by Café Vanille, collects, uses and protects your personal data, and the rights you have.">
 <meta property="og:url" content="https://privacy.latte.study/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Latte Privacy Policy", "url": "https://privacy.latte.study/", "description": "How Latte, the study planner by Café Vanille, collects, uses and protects your personal data, and the rights you have.", "inLanguage": "en", "datePublished": "2026-10-18", "dateModified": "2026-10-25", "isPartOf": {"@type": "WebSite", "name": "Latte", "url": "https://latte.study"}, "publisher": {"@type": "Organization", "name": "Café Vanille", "url": "https://latte.study", "email": "legal@latte.study"}}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "name": "Latte Privacy Policy", "url": "https://privacy.latte.study/", "description": "How Latte, the study planner by Café Vanille, collects, uses and protects your personal data, and the rights you have.", "inLanguage": "en", "datePublished": "2026-10-18", "dateModified": "2026-11-01", "isPartOf": {"@type": "WebSite", "name": "Latte", "url": "https://latte.study"}, "publisher": {"@type": "Organization", "name": "Café Vanille", "url": "https://latte.study", "email": "legal@latte.study"}}</script>
 <style>:root{--bg:#fff8f5;--surface:#fffdfa;--ink:#2d1600;--muted:#6a5c51;--line:#ecdcd0;--accent:#904d00;--accent-deep:#6d3900;--accent-soft:#ffede2;--focus:#904d00}
 @media (prefers-color-scheme:dark){:root{--bg:#1c120b;--surface:#251910;--ink:#f6e6da;--muted:#d6c3b6;--line:#43322a;--accent:#ffb77c;--accent-deep:#ffdcc2;--accent-soft:#2f2016;--focus:#ffb77c}}
 *{box-sizing:border-box}
@@ -81,6 +81,7 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 <li><a href="#retention">How long we keep data</a></li>
 <li><a href="#your-rights">Your rights</a></li>
 <li><a href="#cookies">Cookies and similar technologies</a></li>
+<li><a href="#waitlist">Waitlist for the new Latte</a></li>
 <li><a href="#security">Security</a></li>
 <li><a href="#changes">Changes to this policy</a></li>
 <li><a href="#contact">Contact</a></li>
@@ -89,7 +90,7 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 <main id="content">
 <article>
 <h1>Privacy Policy</h1>
-<p class="meta">Effective <time datetime="2026-10-18">18 October 2026</time> &middot; Applies to the Latte website, web app, desktop app and mobile apps</p>
+<p class="meta">Effective <time datetime="2026-11-01">1 November 2026</time> &middot; Applies to the Latte website, web app, desktop app and mobile apps</p>
 
 <div class="summary" role="note" aria-labelledby="tldr">
 <h2 id="tldr">The short version</h2>
@@ -173,7 +174,7 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 <div class="table-wrap"><table>
 <thead><tr><th scope="col">Provider</th><th scope="col">What for</th><th scope="col">Where</th></tr></thead>
 <tbody>
-<tr><td>Microsoft Azure (Microsoft Ireland Operations Ltd.)</td><td>Hosting, databases, file storage, backups, email delivery, push notifications, AI models, and Application Insights telemetry</td><td>Switzerland / EU</td></tr>
+<tr><td>Microsoft Azure (Microsoft Ireland Operations Ltd.)</td><td>Hosting, databases, file storage, backups, email delivery, push notifications, AI models, and Application Insights telemetry</td><td>EU (Sweden)</td></tr>
 <tr><td>Microsoft Clarity (Microsoft Corp.)</td><td>Mobile usage analytics</td><td>USA</td></tr>
 <tr><td>Stripe (Stripe Payments Europe, Ltd.)</td><td>Payment processing and invoicing</td><td>EU / USA</td></tr>
 <tr><td>Google (Google Ireland Ltd. / Google LLC)</td><td>Firebase Cloud Messaging (push), Firebase Analytics and Crashlytics (mobile app), and Tenor GIF search in chat</td><td>EU / USA</td></tr>
@@ -189,8 +190,9 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 <p>If you sign in with Google or connect your Google Calendar to Latte, we access the following Google user data. We access it only after you grant permission on Google&rsquo;s consent screen:</p>
 <ul>
 <li><strong>Basic profile</strong> (OpenID, name, email address): used to create your Latte account and sign you in.</li>
-<li><strong>Google Calendar, read access</strong> (<code>calendar.readonly</code>): used to import your existing Google Calendar events and show them in your Latte calendar, so that you can plan your studies around them.</li>
-<li><strong>Google Calendar events, write access</strong> (<code>calendar.events</code>): used only if you turn on two-way sync. Latte uses it to create and update, in your Google Calendar, the events you create or edit in Latte.</li>
+<li><strong>Your list of Google calendars, read access</strong> (<code>calendar.calendarlist.readonly</code>): used to show which of your Google calendars you can connect, with their names and time zones, and to tell which calendars you own.</li>
+<li><strong>Google Calendar events, read access</strong> (<code>calendar.events.readonly</code>): used to import the events of the calendars you choose to connect and show them in your Latte calendar, so that you can plan your studies around them.</li>
+<li><strong>Events on calendars you own, write access</strong> (<code>calendar.events.owned</code>): used only if you turn on two-way sync, and only for calendars you own. Latte uses it to create, update and delete, in that Google calendar, the events you create, edit or delete in Latte. Calendars that others share with you are never changed by Latte.</li>
 </ul>
 <p>We use Google user data only to provide and improve these user-facing calendar and sign-in features. We do not sell Google user data. We do not use or transfer it for advertising, including personalised, retargeted or interest-based advertising. We do not use it to determine creditworthiness or for lending purposes, and we do not use it to develop, improve or train generalised artificial intelligence or machine-learning models.</p>
 <p>We do not allow humans to read Google user data, except in four cases:</p>
@@ -207,7 +209,7 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 
 <section id="transfers">
 <h2>8. International transfers</h2>
-<p>Our main infrastructure runs on Microsoft Azure in Switzerland and the European Union. Both are recognised as providing adequate data protection. Some of the providers listed above may process data in other countries, mainly the United States. Where that happens, we rely on an adequacy decision or on safeguards approved under the GDPR and the FADP. These include the EU–US and Swiss–US Data Privacy Frameworks, where the provider is certified, and Standard Contractual Clauses. You can ask us for a copy of the relevant safeguards.</p>
+<p>Our main infrastructure runs on Microsoft Azure in the European Union (Sweden), which is recognised as providing adequate data protection. Some of the providers listed above may process data in other countries, mainly the United States. Where that happens, we rely on an adequacy decision or on safeguards approved under the GDPR and the FADP. These include the EU–US and Swiss–US Data Privacy Frameworks, where the provider is certified, and Standard Contractual Clauses. You can ask us for a copy of the relevant safeguards.</p>
 </section>
 
 <section id="retention">
@@ -248,8 +250,17 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 <p>We use no advertising cookies and no cross-site tracking for ads. You can also block or delete cookies in your browser settings. If you block strictly necessary cookies, Latte may stop working properly.</p>
 </section>
 
+<section id="waitlist">
+<h2>12. Waitlist for the new Latte</h2>
+<p>If you join the waitlist on latte.study, we store your email address, whether you joined as a student, a coach or association, or a school, the language you chose, the name of your school or organisation if you give one (coaches and schools only), and when and with which wording you gave your consent. We store nothing else: not your IP address, not your browser, and nothing that links the entry to a Latte account or to our website statistics.</p>
+<p><strong>Purpose.</strong> To send you one welcome email now, and one more when the new Latte is ready for you, with an invitation. We use the list for nothing else and share it with no one except our processor <a href="#processors">Microsoft Azure</a>, which hosts Latte&rsquo;s database in the EU (Sweden), where the list is kept, and sends these emails for us (Azure Communication Services).</p>
+<p><strong>Legal basis.</strong> Your consent (Art. 6(1)(a) GDPR), given by ticking the box on the form.</p>
+<p><strong>Retention.</strong> We delete your entry 30 days after we send the invitations for the new Latte, and in any case 12 months after you joined.</p>
+<p><strong>Your rights.</strong> Every email we send has a link that removes your address from the list at once (also marked &ldquo;Not you? Remove this address&rdquo; if someone else entered it), and supports your email app&rsquo;s one-click unsubscribe. You can also ask us to show you or delete your entry by writing to <a href="mailto:privacy@latte.study">privacy@latte.study</a>. You can withdraw your consent at any time; this does not affect what we did before. You may complain to your <a href="#your-rights">data-protection authority</a>.</p>
+</section>
+
 <section id="security">
-<h2>12. Security</h2>
+<h2>13. Security</h2>
 <p>We protect your data with:</p>
 <ul>
 <li>encryption in transit (TLS), including connections to our databases;</li>
@@ -263,12 +274,12 @@ code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:
 </section>
 
 <section id="changes">
-<h2>13. Changes to this policy</h2>
+<h2>14. Changes to this policy</h2>
 <p>We will update this policy when Latte changes, and we will show the new effective date at the top. If we make an important change, we will tell you in the app or by email before it takes effect. Where the law requires it, we will ask for your consent again.</p>
 </section>
 
 <section id="contact">
-<h2>14. Contact</h2>
+<h2>15. Contact</h2>
 <address>Café Vanille &mdash; Latte<br>Privacy: <a href="mailto:privacy@latte.study">privacy@latte.study</a><br>Legal: <a href="mailto:legal@latte.study">legal@latte.study</a><br>Help centre: <a href="https://support.latte.study">support.latte.study</a></address>
 <p class="note">This English version is the binding version. Translations, if any, are provided for convenience.</p>
 </section>
